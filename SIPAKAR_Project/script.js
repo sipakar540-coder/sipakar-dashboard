@@ -1,6 +1,6 @@
 // script.js
 
-const sheetURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLb9sJ1YIxz1r2x0K_f89iHodz9fZ0l8IzJI7pNVK9clBN7_v7RztaCK32vQbPzxAzmTyyIlbvOjFU/pub?gid=377540299&single=true&output=csv';
+const sheetURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLb9sJ1YIxz1r2x0K_f89iHodz9fZ0l8IzJI7pNVK9clBN7_v7RztaCK32vQbPzxAzmTyyIlbvOjFU/pub?output=csv';
 
 async function loadData() {
     try {
