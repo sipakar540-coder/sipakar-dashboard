@@ -15,6 +15,17 @@ async function loadData() {
     } catch (error) {
         console.error("Gagal mengambil data Sheets:", error);
     }
+    rows.forEach(row => {
+    let color = "";
+    let riskLevel = row[2];
+
+    if (riskLevel === "Risiko Tinggi") {
+        color = "red";
+    } else if (riskLevel === "Risiko Sedang") {
+        color = "orange";
+    } else {
+        color = "green";
+    }
 }
 
 window.onload = loadData;
